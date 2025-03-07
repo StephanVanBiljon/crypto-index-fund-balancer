@@ -1,0 +1,28 @@
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: cypto_index_fund_backend
+    ports:
+      - "8000:8000"
+    networks:
+      - crypto-index-fund-network
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: cypto_index_fund_frontend
+    environment:
+      REACT_APP_BACKEND_URL: http://localhost:8000
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+    networks:
+      - crypto-index-fund-network
+
+networks:
+  crypto-index-fund-network:
+    driver: bridge

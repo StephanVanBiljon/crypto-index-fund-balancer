@@ -1,0 +1,161 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    color: #333;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #eaeaea;
+    font-size: 24px;
+  }
+  
+  .subtitle {
+    font-size: 18px;
+    margin: 0;
+    color: #444;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: #555;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: border-color 0.2s;
+  }
+  
+  .input:focus {
+    border-color: #4a90e2;
+    outline: none;
+  }
+  
+  .section {
+    margin: 25px 0;
+    background-color: white;
+    padding: 15px;
+    border-radius: 6px;
+    border: 1px solid #eee;
+  }
+  
+  .section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .coins-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .coin-item {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .coin-input {
+    flex: 1;
+  }
+  
+  .button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.2s;
+  }
+  
+  .button-blue {
+    background-color: #4a90e2;
+    color: white;
+  }
+  
+  .button-blue:hover {
+    background-color: #3a7bc8;
+  }
+  
+  .button-green {
+    background-color: #5cb85c;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .button-green:hover {
+    background-color: #4cae4c;
+  }
+  
+  .button-red {
+    background-color: #d9534f;
+    color: white;
+  }
+  
+  .button-red:hover {
+    background-color: #c9302c;
+  }
+  
+  .button-disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  .form-actions {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .empty-message {
+    text-align: center;
+    padding: 20px;
+    color: #888;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+  }
+
+  .result-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: white;
+  }
+  
+  .result-table th, 
+  .result-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #e0e0e0;
+  }
+  
+  .result-table th {
+    background-color: #f5f5f5;
+    font-weight: 600;
+  }
+  
+  .result-table tr:nth-child(even) {
+    background-color: #fafafa;
+  }
+  
+  .result-table tr:hover {
+    background-color: #f0f7ff;
+  }
