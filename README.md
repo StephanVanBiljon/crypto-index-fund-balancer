@@ -3,12 +3,27 @@
 ## Part 1
 This repository contains a full-stack app designed to balance a crypto index fund with asset caps. It includes a FastAPI backend for calculating fund allocations, a React frontend for user interaction, and automated re-balancing logic.
 
-## Getting Started
+### Getting Started
 
-- Clone the repository from Github
+- Navigate to the directory where you want to clone the repository from Github and execute one of the folowing commands: 
+    - *SSH* 
+    ```
+    git clone git@github.com:StephanVanBiljon/crypto-index-fund-balancer.git
+    ```
+    - *HTTPS*
+    ```
+    git clone https://github.com/StephanVanBiljon/crypto-index-fund-balancer.git
+    ```
 - Ensure that you have Docker installed
-- Execute `docker-compose up --build`
-- The application's frontend can be accessed at the following URL: http://localhost:3000/
+- Navigate to the main project directory: 
+```
+cd crypto-index-fund-balancer
+```
+- Execute the following command:
+```
+docker-compose up --build
+```
+- Upon successfully starting, the application's frontend can be accessed at the following URL: http://localhost:3000/
 
 ## Part 2
 ### Entity Relationship Diagram
